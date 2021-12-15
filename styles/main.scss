@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+@import 'variables';
+
+html {
+    height: 100%;
+    font-size: 18px;
+    font-family: 'Outfit', 'sans-serif';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $main-bg;
+    color: $softblue;
+    // @media screen and (min-width: 1440px){
+    
+    // }
+}
+
+h1 {
+    color: $white;
+    font-size: inherit;
+}
+
+a {
+    color: $white;
+    text-decoration: none;
+
+    &:hover {
+        color: $cyan;
+    }
+}
+
+
+.card {
+    background-color: $card-bg;
+    border-radius: 1em;
+    max-width: 16em;
+    padding: 1.5em;
+    margin: 0 2em;
+    box-shadow: 0 1em 10px 1em rgba(0, 0, 0, 0.08), 0 1em 10px 3em rgba(0, 0, 0, 0.03);
+
+    .card-img {
+        border-radius: 1em;
+        width: 100%;
+    }
+
+    .card-text {
+        margin: 20px 0 0 0;  
+     }
+
+    .card-tradedata {
+        display: flex;
+        justify-content: space-between;
+    
+        .card-eth {
+            color: $cyan;
+        }
+        // .card-time-left {
+
+        // }
+    }
+
+    .card-created {
+    
+        
+        // .card-avatar {
+            
+        // }
+
+        .card-author-name {
+            color: $white;
+        }
+    }
+    
+}

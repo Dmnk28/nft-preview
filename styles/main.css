@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+html {
+  height: 100%;
+  font-size: 18px;
+  font-family: 'Outfit', 'sans-serif';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #0d192b;
+  color: #8bacda;
+}
+
+h1 {
+  color: white;
+  font-size: inherit;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00fff7;
+}
+
+.card {
+  background-color: #14253d;
+  border-radius: 1em;
+  max-width: 16em;
+  padding: 1.5em;
+  margin: 0 2em;
+  -webkit-box-shadow: 0 1em 10px 1em rgba(0, 0, 0, 0.08), 0 1em 10px 3em rgba(0, 0, 0, 0.03);
+          box-shadow: 0 1em 10px 1em rgba(0, 0, 0, 0.08), 0 1em 10px 3em rgba(0, 0, 0, 0.03);
+}
+
+.card .card-img {
+  border-radius: 1em;
+  width: 100%;
+}
+
+.card .card-text {
+  margin: 20px 0 0 0;
+}
+
+.card .card-tradedata {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card .card-tradedata .card-eth {
+  color: #00fff7;
+}
+
+.card .card-created .card-author-name {
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */
