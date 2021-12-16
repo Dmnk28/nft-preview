@@ -39,10 +39,49 @@ a {
     margin: 0 2rem;
     box-shadow: 0 1em 10px 1em rgba(0, 0, 0, 0.08), 0 1em 10px 3em rgba(0, 0, 0, 0.03);
     // font-size: 18px;
-    .card-img {
-        border-radius: 0.5em;
-        width: 100%;
+    .card-image {
         position: relative;
+        
+        // width: 100%;
+
+        .card-img {
+            display: block;
+            border-radius: 0.5em;
+            width: 100%;
+        }
+
+        .overlay {
+            border-radius: 0.5em;
+            
+            background: $cyan;
+            position: absolute;
+            top:0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: .5s ease;
+        }
+
+        .overlay-view-icon {
+            color: $white;
+            opacity: 0;
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            transition: .5s ease;
+        }
+
+        &:hover .overlay{
+            opacity: 0.5;
+        }
+
+        &:hover .overlay-view-icon{
+            opacity: 1;
+        }
     }
 
     .card-text {
