@@ -4,11 +4,13 @@
 
 This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). 
 
+
+:heavy_check_mark: [Live Solution URL](https://dmnk28.github.io/nft-preview/)
+
 ## Table of contents
 
 - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot-challenge)
-  - [Links](#links)
+  - [Screenshot Challenge](#screenshot-challenge)
 - [My process](#my-process)
 - [What I learned](#what-i-learned)
 - [Frontend Mentor Profile](#frontend-mentor-profile)
@@ -23,11 +25,6 @@ Users should be able to:
 
 ### Screenshot Challenge
 ![Challenge Screenshot](./design/desktop-design.jpg)
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
